@@ -1,6 +1,6 @@
-package ru.haulmont.client;
+package ru.haulmont.Client;
 
-import ru.haulmont.cardofregistration.CardOfRegistration;
+import ru.haulmont.CardOfRegistration.CardOfRegistration;
 
 import java.util.List;
 

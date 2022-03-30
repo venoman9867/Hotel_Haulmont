@@ -1,4 +1,4 @@
-package ru.haulmont.apartments;
+package ru.haulmont.Apartments;
 
 public class Apartments {
     private final int number;

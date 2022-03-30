@@ -1,7 +1,7 @@
-package ru.haulmont.cardofregistration;
+package ru.haulmont.CardOfRegistration;
 
-import ru.haulmont.apartments.Apartments;
-import ru.haulmont.client.Client;
+import ru.haulmont.Apartments.Apartments;
+import ru.haulmont.Client.Client;
 
 import java.time.LocalDate;
 
