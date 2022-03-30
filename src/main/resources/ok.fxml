@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<AnchorPane prefHeight="127.0" prefWidth="212.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="ru.haulmont.Controller.Controller">
+   <Text layoutX="31.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Вы добавили гостя!">
+      <font>
+         <Font name="Times New Roman" size="18.0"/>
+      </font>
+   </Text>
+   <Button layoutX="78.0" layoutY="64.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="57.0" text="OK!" fx:id="second_Ok">
+      <font>
+         <Font name="Times New Roman" size="14.0"/>
+      </font>
+   </Button>
+</AnchorPane>

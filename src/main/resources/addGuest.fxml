@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.*?>
-<AnchorPane fx:controller="ru.haulmont.Controller.Controller" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="236.0"
-            prefWidth="392.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
-   <Text layoutX="42.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Имя"/>
-   <Text layoutX="28.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Фамилия"/>
-   <Text layoutX="27.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Отчество"/>
-   <Text layoutX="29.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Телефон"/>
-   <Text layoutX="40.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email"/>
-   <TextField fx:id="Email" layoutX="94.0" layoutY="168.0" prefHeight="27.0" prefWidth="234.0"/>
-   <TextField fx:id="Name" layoutX="94.0" layoutY="47.0" prefHeight="27.0" prefWidth="234.0"/>
-   <TextField fx:id="Number" layoutX="94.0" layoutY="138.0" prefHeight="27.0" prefWidth="234.0"/>
-   <TextField fx:id="Patronymic" layoutX="94.0" layoutY="107.0" prefHeight="27.0" prefWidth="234.0"/>
-   <TextField fx:id="Family" layoutX="94.0" layoutY="78.0" prefHeight="27.0" prefWidth="234.0"/>
-   <Text layoutX="142.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Заполните строки:"/>
+
+<AnchorPane maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="244.0" prefWidth="394.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.haulmont.Controller.Controller">
+   <children>
+      <Text layoutX="42.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Имя" />
+      <Text layoutX="28.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Фамилия" />
+      <Text layoutX="27.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Отчество" />
+      <Text layoutX="29.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Телефон" />
+      <Text layoutX="40.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
+      <TextField fx:id="Email" layoutX="94.0" layoutY="168.0" prefHeight="27.0" prefWidth="234.0" />
+      <TextField fx:id="Name" layoutX="94.0" layoutY="47.0" prefHeight="27.0" prefWidth="234.0" />
+      <TextField fx:id="Number" layoutX="94.0" layoutY="138.0" prefHeight="27.0" prefWidth="234.0" />
+      <TextField fx:id="Patronymic" layoutX="94.0" layoutY="107.0" prefHeight="27.0" prefWidth="234.0" />
+      <TextField fx:id="Family" layoutX="94.0" layoutY="78.0" prefHeight="27.0" prefWidth="234.0" />
+      <Text layoutX="143.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Заполните строки:" />
+      <Button fx:id="first_Ok" layoutX="186.0" layoutY="199.0" mnemonicParsing="false" onAction="#ifOkayButtonClicked" text="OK!">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Button>
+   </children>
 </AnchorPane>
