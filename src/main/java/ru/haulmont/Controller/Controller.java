@@ -13,6 +13,21 @@ public class Controller {
     public TextField Number;
     public TextField Email;
 
+    public String getName() {
+        return Name.getText();
+    }
+    public String getFamily() {
+        return Family.getText();
+    }
+    public String getPatronymic() {
+        return Patronymic.getText();
+    }
+    public String getNumber() {
+        return Number.getText();
+    }
+    public String getEmail() {
+        return Email.getText();
+    }
 
     public void listOfGuest() {
         main.getListOfGuests();
