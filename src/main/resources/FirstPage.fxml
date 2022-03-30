@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane cache="true" prefHeight="600.0" prefWidth="800.0" styleClass="bodybg" stylesheets="@style.css"
+            xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="ru.haulmont.Controller.Controller">
+    <Text layoutX="375.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Добро пожаловать!"
+          textAlignment="CENTER">
+        <fill>
+          <LinearGradient>
+              <stops>
+                  <Stop color="WHITE"/>
+                  <Stop color="#0066ff" offset="0.007518796992481203"/>
+                  <Stop color="#fd00ff" offset="1.0"/>
+              </stops>
+          </LinearGradient>
+        </fill>
+        <font>
+          <Font size="47.0"/>
+        </font>
+    </Text>
+    <Accordion layoutX="14.0" layoutY="69.0">
+      <panes>
+          <TitledPane animated="false" prefHeight="151.0" prefWidth="258.0" text="Просмотр и редактирование жильцов">
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                  <Button onAction="#listOfGuest" layoutX="7.0" layoutY="7.0" mnemonicParsing="false"
+                          text="Список постояльцев"/>
+                  <Button onAction="#addGuest" layoutX="7.0" layoutY="34.0" mnemonicParsing="false"
+                          text="Добавить постояльца(-ев)"/>
+                  <Button onAction="#deleteGuest" layoutX="7.0" layoutY="61.0" mnemonicParsing="false"
+                          text="Удалить постояльца(-цев)"/>
+                  <Button onAction="#changeGuest" layoutX="7.0" layoutY="88.0" mnemonicParsing="false"
+                          text="Изменить постояльца(-цев)"/>
+              </AnchorPane>
+          </TitledPane>
+          <TitledPane animated="false" text="untitled 2">
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0"/>
+          </TitledPane>
+          <TitledPane animated="false" text="untitled 3">
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0"/>
+          </TitledPane>
+      </panes>
+    </Accordion>
+</AnchorPane>
