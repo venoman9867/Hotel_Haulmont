@@ -15,24 +15,4 @@ public class Client {
         this.email = email;
         this.listCardOfRegistration = listCardOfRegistration;
     }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public String getNumber() {
-        return number;
-    }
-
-    public String getPatronymic() {
-        return patronymic;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getFamily() {
-        return family;
-    }
 }
